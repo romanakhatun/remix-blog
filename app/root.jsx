@@ -7,6 +7,11 @@ import {
   ScrollRestoration
 } from "remix";
 
+import tailwind from './tailwind.css';
+
+export const links = () => {
+  return [{ rel: 'stylesheet', href: tailwind }]
+}
 export function meta() {
   return { title: "First Remix App" };
 }
