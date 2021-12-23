@@ -1,32 +1,14 @@
-export default function Index() {
+const Index = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Welcome to Remix</h1>
-      <ul>
-        <li className="underline">
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li className="underline">
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li className="underline">
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="">
+      <h1 className="text-4xl font-bold mb-2">Welcome to Remix</h1>
+      <p>
+        Remix is a full stack web framework that lets you focus on the user
+        interface and work back through web fundamentals to deliver a fast,
+        slick, and resilient user experience. People are gonna love using your
+        stuff.
+      </p>
     </div>
   );
-}
+};
+export default Index;
